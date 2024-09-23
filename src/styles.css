@@ -1,0 +1,72 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap'); */
+
+/*@font-face {
+  font-family: 'nautilus';
+  src: url("./fonts/nautilus-pompilius.otf");
+  font-weight: bold;
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* width: 80%; */
+    margin: 0;
+    padding: 0;
+    background-color: #E0E4EE;
+    /* background-color: #5bd3c7; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5rem;
+}
+
+.header {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    /* flex-direction: column; */
+}
+
+.tabs-cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+button {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #de2c2c;
+}
+
+.active {
+    background-color: #353755;
+    color: #FFFFFF;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.description{
+    border-radius: 10px;
+    color: #FFFFFF;
+    width: 1200px;
+    background-color: #353755;
+    padding: 20px;
+}
+
+.image {
+    border: 30px solid #5BD3C7;
+    border-radius: 30px;
+}
